@@ -1,4 +1,4 @@
-# kickstart.nvim
+# My config.nvim
 
 ## Introduction
 
@@ -8,11 +8,13 @@ A starting point for Neovim that is:
 * Single-file
 * Completely Documented
 
+This is my personal config for use with ['ZSA Moonlander keyboard'](https://www.zsa.io/moonlander) so may be strange on a normal keyboard layout.
+
 ## Installation
 
 ### Install Neovim
 
-Kickstart.nvim targets *only* the latest
+config.nvim targets *only* the latest
 ['stable'](https://github.com/neovim/neovim/releases/tag/stable) and latest
 ['nightly'](https://github.com/neovim/neovim/releases/tag/nightly) of Neovim.
 If you are experiencing issues, please make sure you have the latest versions.
@@ -34,7 +36,7 @@ External Requirements:
 > See [Install Recipes](#Install-Recipes) for additional Windows and Linux specific notes
 > and quick install snippets
 
-### Install Kickstart
+### Install config.nvim
 
 > **NOTE**
 > [Backup](#FAQ) your previous configuration (if any exists)
@@ -47,7 +49,7 @@ Neovim's configurations are located under the following paths, depending on your
 | Windows (cmd)| `%userprofile%\AppData\Local\nvim\` |
 | Windows (powershell)| `$env:USERPROFILE\AppData\Local\nvim\` |
 
-#### Clone kickstart.nvim
+#### Clone config.nvim
 
 <details><summary> Linux and Mac </summary>
 
